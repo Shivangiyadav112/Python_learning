@@ -1,12 +1,5 @@
-#take input from user and append those in list
-# x = int(input('Enter a number'))
-# lst = []
-# for i in range(0,x):
-#     y = input('Enter a string to append in list')
-#     lst.append(y)
-# print(lst) 
 
-x = int(input('Enter a number'))
+x = int(input('Enter a number '))
 
 map_ = {
     'str': [],
@@ -24,8 +17,13 @@ for i in range(x):
     elif datatyp == 'int':
         map_['int'].append(int(val))
     else :
-        print(' plz Initialize a empty list for {datatyp}',format(datatyp))
+       
+        if datatyp in map_ :
+                map_[datatyp].append(val)
+        else:
+                map_[datatyp] = []
+                map_[datatyp].append(val)
 
-   
 print(map_)
     
+
