@@ -49,7 +49,7 @@ print(a.strip())
 
 #replace function in string
 print(a.replace("H", "J")) # will print jello world
-
+   
 
 #The split() method splits the string into substrings if it finds instances of the separator:
 a = "hello, World!"

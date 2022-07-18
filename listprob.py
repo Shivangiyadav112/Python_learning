@@ -12,4 +12,4 @@ for i in range(x):
         mul = 1
         for m in op_lst[1:]:
             mul = mul * int(m)
-        print(mul)
+        print(mul) 

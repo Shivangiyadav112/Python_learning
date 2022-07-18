@@ -4,4 +4,4 @@ reverse = x[-1::-1]
 if (reverse == x):
     print("palindrome")
 else:
-    print("not palindrome")
+    print("not palindrome")    

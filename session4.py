@@ -6,15 +6,17 @@ type(tup)
 st = {4,3,4,4,3,2,1}
 print(st)
 bt = {4,5,6,1,0}
-print(bt)
-print(type(st))
+print(bt)   
+print(type(st))  
 print("intersection :")
 print(st.intersection(bt))
 print("union")
 print(st.union(bt))
 
 # dictionaries
+                
 
+                
 
 
 map_ = {

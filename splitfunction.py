@@ -10,7 +10,7 @@ for i in range(x):
         print(num1 * num2)
     elif op =='sub':
         print(num1 - num2)
-    elif op == 'div':
+    elif op == 'div':    
         print(num1/num2)
     else:
         print("invalid operator")

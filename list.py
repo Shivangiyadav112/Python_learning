@@ -4,4 +4,4 @@ lst = []
 for i in range(0,x):
     y = input('Enter a string to append in list')
     lst.append(y)
-print(lst) 
+print(lst)  
